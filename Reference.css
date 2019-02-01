@@ -1,0 +1,328 @@
+
+/*
+Multiquote button.
+*/
+.ipsBox {
+    border: 1px solid #1C1712 !important;
+}
+.ipsApp .ipsButton_light {
+    background: #4D4029 !important;
+    border-color: rgba(0,0,0,0.03) !important;
+    color: #DAE5A2 !important;
+}
+.ipsApp .ipsButton_veryLight {
+    background: #4D4029 !important;
+    border-color: rgba(0,0,0,0.03) !important;
+    color: #DAE5A2 !important;
+}
+
+
+/* 
+Follow button.
+*/
+.ipsApp .ipsButton_link.ipsFollow, .ipsApp .ipsButton_link.ipsPromote {
+    background: #222 !important;
+}
+.ipsApp .ipsButton_link {
+    background: transparent !important;
+    color: #efe5ca !important;
+    border: 1px solid #0E0E0E !important;
+}
+html[dir="ltr"] .ipsFollow .ipsCommentCount::after {
+    border-color: transparent #353c41 transparent transparent !important;
+}
+.ipsFollow .ipsCommentCount {
+    background: #353c41 !important;
+    color: #efe5ca !important;
+    text-shadow: none !important;
+}
+
+
+
+/*
+Post editor.
+*/
+.ipsComposeArea_dummy {
+    background: #272727 !important;
+    color: #707070 !important;
+}
+.cke_wysiwyg_frame, .cke_wysiwyg_div {
+    background-color: #272727 !important;
+}
+.ipsApp .ipsField_autocomplete, .ipsApp textarea, .ipsApp input[type="text"], .ipsApp input[type="password"], .ipsApp input[type="datetime"], .ipsApp input[type="datetime-local"], .ipsApp input[type="date"], .ipsApp input[type="month"], .ipsApp input[type="time"], .ipsApp input[type="week"], .ipsApp input[type="number"], .ipsApp input[type="email"], .ipsApp input[type="url"], .ipsApp input[type="search"], .ipsApp input[type="tel"], .cke_wysiwyg_frame, .cke_wysiwyg_div, .ipsApp select:not([multiple]) {
+    color: #efe5ca !important;
+}
+/*
+Post editor toolbar.
+*/
+.cke_top {
+    white-space: normal !important;
+    background: #b0b0b0 !important;
+}
+
+
+/*
+Topic page buttons.
+*/
+.ipsPagination .ipsPagination_page a {
+    text-shadow: 0px 0px 0px rgba(0,0,0,0) !important;
+}
+.ipsPagination:not(.ipsPagination_mini) .ipsPagination_page a, .ipsPagination:not(.ipsPagination_mini) .ipsPagination_next a, .ipsPagination:not(.ipsPagination_mini) .ipsPagination_prev a, .ipsPagination:not(.ipsPagination_mini) .ipsPagination_first a, .ipsPagination:not(.ipsPagination_mini) .ipsPagination_last a {
+    background: #333333 !important;
+    color: #efe5ca !important;
+}
+.ipsPagination .ipsPagination_page.ipsPagination_active a {
+    background: #4D4029 !important;
+    border-color: #4D4029 !important;
+    color: #efe5ca !important;
+}
+.ipsPager_type, .ipsPager .ipsPager_next a::after, .ipsPager .ipsPager_prev a::after {
+    color: #efe5ca !important;
+}
+
+
+/*
+Likes and carma.
+*/
+.ipsReact_reactCount {
+    border: 1px solid rgba(0,0,0,0.1) !important;
+    background: #333333 !important;
+    }
+.ipsReact_reactCount > span > span:last-child, .ipsReact_reactCount > a > span:last-child {
+    background: rgba(0,0,0,0.1) !important;
+    color: #fff !important;
+}
+html[dir="ltr"] .ipsReact_blurb:not(.ipsHide) + .ipsReact_types {
+    border-left: 1px solid #2E2E2E !important;
+}
+
+
+/* 
+Bell and PM. 
+*/
+#elUserNav > li > a, #elFooterSocialLinks > li > a {
+    color: #efe5ca !important;
+}
+.ipsDataList_readStatus .ipsDataItem:not(.ipsDataItem_unread):not(.ipsDataItem_selected):not(.ipsModerated) {
+    background: #333333 !important;
+}
+
+
+/*
+Spoilers.
+*/
+.ipsSpoiler, .ipsStyle_spoiler{
+    background: #222 !important;
+    border-color: rgba(0,0,0,0.2) rgba(0,0,0,0.2) rgba(0,0,0,0.2) #000 !important;
+}
+.ipsSpoiler_header {
+    background: #111111 !important;
+    color: #efe5ca !important;
+}
+
+/*
+Chat mentions.
+*/
+.ipsApp .ipsDataItem_new, .ipsApp .ipsDataItem_success {
+    background-color: #efe5ca !important;
+    color: #4D4029 !important;
+}
+
+/*
+Chat input.
+*/
+#cbInput_container input {
+    color: #c0c0c0 !important;
+}
+
+/*
+Topic list upper bar.
+*/
+.ipsButtonBar {
+    background: #262626 !important;
+}
+.ipsButtonBar .ipsPagination .ipsPagination_pageJump a { 
+    color: inherit !important;
+}
+.ipsApp .ipsButtonBar .ipsPagination .ipsPagination_page a, .ipsApp .ipsButtonBar .ipsPagination .ipsPagination_next a, .ipsApp .ipsButtonBar .ipsPagination .ipsPagination_prev a, .ipsApp .ipsButtonBar .ipsPagination .ipsPagination_first a, .ipsApp .ipsButtonBar .ipsPagination .ipsPagination_last a {
+    background: #333333 !important;
+    color: #efe5ca !important;
+}
+.ipsButtonBar .ipsPagination .ipsPagination_page.ipsPagination_active a {
+    background: #4D4029 !important;
+    border-color: #4D4029 !important;
+    color: #efe5ca !important;
+}
+.ipsButtonBar .ipsButtonRow li > a, .ipsButtonBar .ipsButtonRow li > button, .ipsButtonBar .ipsButtonRow li > span {
+    background: #4D4029 !important;
+    color: #efe5ca !important;
+}
+.ipsMenu_item > a:not(.ipsMenu_itemInline), .ipsMenu_item > span:not(.ipsMenu_itemInline) {
+    color: inherit !important;
+}
+
+
+/*
+Code editor.
+*/
+.CodeMirror {
+    font-family: monospace !important;
+    color: #efe5ca !important;
+		background: #333 !important;
+		border: black !important;
+}
+.ipsApp .ipsField_autocomplete, .ipsApp textarea, .ipsApp input[type="text"], .ipsApp input[type="password"], .ipsApp input[type="datetime"], .ipsApp input[type="datetime-local"], .ipsApp input[type="date"], .ipsApp input[type="month"], .ipsApp input[type="time"], .ipsApp input[type="week"], .ipsApp input[type="number"], .ipsApp input[type="email"], .ipsApp input[type="url"], .ipsApp input[type="search"], .ipsApp input[type="tel"], .ipsApp .ipsField_dummy {
+	background-color: #333 !important;
+}
+.ipsApp select {
+    border: 1px solid #333 !important;
+    background: #333 !important;
+}
+.ipsApp select:not([multiple]) {
+	background-image: url( "https://www.redwall.ru/forum/uploads/set_resources_2/84c1e40ea0e759e3f1505eb1788ddf3c_select_dropdown.png" ), linear-gradient(to bottom, #333 0%,#333 100%) !important;
+}
+
+
+.ipsCode {
+    background: #0E0E0E !important;
+		border-left: 4px solid #efe5ca !important;
+}
+.pln {
+    color: #efe5ca !important;
+}
+
+
+/* 
+Calendar.
+*/
+.ipsSticky {
+    background: #333 !important;
+}
+
+/*
+Main page stuffs.
+*/
+html[dir] .ipsButton_split > .ipsButton.ipsButton_link, html[dir] .ipsButton_split > li > .ipsButton.ipsButton_link {
+    border: 0px solid #8d9aa6 !important;
+}
+.cForumMiniList.cForumMiniList_multiRoot > li > a {
+    color: #efe5ca !important;
+}
+.progress {
+    background-color: #444 !important;
+}
+.progress-bar {
+    background-color: #efe5ca !important;
+}
+.ipsAttachment_progress {
+    border: 1px solid #333 !important;
+    background: #333 !important;
+}
+.ipsAttachment_progress > span {
+    background: #efe5ca !important;
+}
+
+/*
+Border fix.
+*/
+.ipsThumb, .ipsImage_thumbnailed {
+    border: 0px solid #000 !important;
+}
+
+a[data-mentionid] {
+    color: #efe5ca !important;
+    background: #4D4029 !important;
+}
+
+
+/*
+Alert box.
+*/
+.ipsAlert {
+    background: #333 !important;
+}
+.ipsAlert_msg, .ipsAlert_icon {
+    color: inherit !important;
+}
+
+/*
+Activity header.
+*/
+.cStreamFilter {
+    background: #4D4029 !important;
+}
+.cStreamFilter h3 {
+    color: #efe5ca !important;
+}
+
+
+/*
+Activity timeline.
+*/
+.ipsStreamItem_time {
+    background: #4D4029 !important;
+    color: #efe5ca !important;
+}
+.ipsStream .ipsStreamItem_contentType {
+    background: #4D4029 !important;
+    color: #efe5ca !important;
+	  border: 2px solid #4D4029 !important;
+}
+html[dir="ltr"] .ipsStream.ipsStream_withTimeline {
+    border-left: 3px solid #4D4029 !important;
+}
+
+/*
+Activity posts.
+*/
+.ipsStreamItem.ipsStreamItem_contentBlock {
+    border: 0px solid #d9d9d9 !important;
+}
+
+
+/*
+Main header dropdown selected item.
+*/
+ul:not(.ipsMenu_keyNav)
+.ipsMenu_item:not(.ipsMenu_itemClicked):not(.ipsMenu_itemDisabled)
+a:not(.ipsMenu_itemInline):hover, .ipsMenu_item[data-selected] a, 
+.ipsMenu_item[data-selected] span, .ipsMenu_item.ipsMenu_hover {
+	background: #4D4029 !important;
+}
+
+
+/*
+Dropdown lists at stat page.
+*/
+.ipsButtonRow li > a, .ipsButtonRow li > button, .ipsButtonRow li > span {
+    background: #4D4029 !important;
+    color: #efe5ca !important;
+}
+
+/*
+Leaders date header.
+*/
+.cPastLeaders_title span {
+    background: transparent !important;
+}
+
+/*
+Leaders place.
+*/
+.cPastLeaders_cell::after {
+    color: #efe5ca !important;
+}
+
+/*
+Project member card.
+*/
+.ipsMemberCard {
+    background: #333 !important;
+    border: 0px solid #d9d9d9 !important;
+}
+
+
+/*Profile card.*/
+.ipsPip {
+    color: #efe5ca !important;
+}
