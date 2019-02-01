@@ -1632,8 +1632,22 @@ a.ipsSideMenu_item:not( .ipsSideMenu_itemActive ):hover {
 .cke_wysiwyg_frame,
 .cke_wysiwyg_div,
 .ipsApp select:not( [multiple] ) {
-	color: #333;
+	color: #efe5ca;
 }
+
+/*TEST*/
+.ipsComposeArea_dummy {
+    background: #272727 !important;
+    color: #707070;
+}
+.cke_wysiwyg_frame, .cke_wysiwyg_div {
+    background-color: #272727;
+}
+.cke_top {
+    white-space: normal;
+    background: #b0b0b0;
+}
+/*TEST*/
 
 .ipsFieldRow_required {
 	color: #ff6262;
