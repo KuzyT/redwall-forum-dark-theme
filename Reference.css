@@ -480,6 +480,12 @@ html[dir="ltr"] #elMobileBreadcrumb::before {
 }
 
 
+/*
+PM active dialogue.
+*/
+.cMessage_active {
+    background: #161616 !important;
+}
 
 
 
