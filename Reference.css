@@ -1,4 +1,6 @@
 
+
+
 /*
 Multiquote button.
 */
@@ -52,6 +54,8 @@ Post editor.
 .ipsApp .ipsField_autocomplete, .ipsApp textarea, .ipsApp input[type="text"], .ipsApp input[type="password"], .ipsApp input[type="datetime"], .ipsApp input[type="datetime-local"], .ipsApp input[type="date"], .ipsApp input[type="month"], .ipsApp input[type="time"], .ipsApp input[type="week"], .ipsApp input[type="number"], .ipsApp input[type="email"], .ipsApp input[type="url"], .ipsApp input[type="search"], .ipsApp input[type="tel"], .cke_wysiwyg_frame, .cke_wysiwyg_div, .ipsApp select:not([multiple]) {
     color: #efe5ca !important;
 }
+
+
 /*
 Post editor toolbar.
 */
@@ -174,12 +178,16 @@ Code editor.
 .ipsApp .ipsField_autocomplete, .ipsApp textarea, .ipsApp input[type="text"], .ipsApp input[type="password"], .ipsApp input[type="datetime"], .ipsApp input[type="datetime-local"], .ipsApp input[type="date"], .ipsApp input[type="month"], .ipsApp input[type="time"], .ipsApp input[type="week"], .ipsApp input[type="number"], .ipsApp input[type="email"], .ipsApp input[type="url"], .ipsApp input[type="search"], .ipsApp input[type="tel"], .ipsApp .ipsField_dummy {
 	background-color: #333 !important;
 }
+
 .ipsApp select {
     border: 1px solid #333 !important;
     background: #333 !important;
 }
 .ipsApp select:not([multiple]) {
 	background-image: url( "https://www.redwall.ru/forum/uploads/set_resources_2/84c1e40ea0e759e3f1505eb1788ddf3c_select_dropdown.png" ), linear-gradient(to bottom, #333 0%,#333 100%) !important;
+	background-position: right center !important;
+	background-size: 18px 9px, 100% 100% !important;
+	background-repeat: no-repeat, repeat !important;
 }
 
 
@@ -221,14 +229,14 @@ html[dir] .ipsButton_split > .ipsButton.ipsButton_link, html[dir] .ipsButton_spl
 .ipsAttachment_progress > span {
     background: #efe5ca !important;
 }
-
-/*
-Border fix.
-*/
-.ipsThumb, .ipsImage_thumbnailed {
-    border: 0px solid #000 !important;
+.ipsType_pageTitle, .ipsWidget.ipsWidget_horizontal .ipsWidget_title, .ipsWidget.ipsWidget_vertical .ipsWidget_inner, #elSiteTitle, .ipsType_sectionHead {
+    color: #efe5ca;
 }
 
+
+/*
+Mentions.
+*/
 a[data-mentionid] {
     color: #efe5ca !important;
     background: #4D4029 !important;
@@ -271,6 +279,9 @@ Activity timeline.
 html[dir="ltr"] .ipsStream.ipsStream_withTimeline {
     border-left: 3px solid #4D4029 !important;
 }
+html[dir] .ipsStream_withTimeline .ipsStreamItem.ipsStreamItem_actionBlock::after {
+    background: #4D4029 !important;
+}
 
 /*
 Activity posts.
@@ -278,7 +289,9 @@ Activity posts.
 .ipsStreamItem.ipsStreamItem_contentBlock {
     border: 0px solid #d9d9d9 !important;
 }
-
+.ipsStreamItem_snippet .ipsType_richText {
+    color: inherit !important;
+}
 
 /*
 Main header dropdown selected item.
@@ -322,7 +335,152 @@ Project member card.
 }
 
 
-/*Profile card.*/
+/*
+Profile card.
+*/
 .ipsPip {
     color: #efe5ca !important;
 }
+
+
+
+
+/*
+Border fix.
+*/
+.ipsThumb, .ipsImage_thumbnailed {
+    border: 0px solid #000 !important;
+}
+
+
+
+/*
+Notifications.
+*/
+#elFlashMessage {
+	background: rgba(77,64,41,0.9) !important;
+	color: #efe5ca !important;
+}
+
+#elFlashMessage a {
+	color: #efe5ca !important;
+	border-bottom: 1px solid rgba(239,229,202,0.6) !important;
+}
+
+
+
+/*
+Quote tooltip.
+*/
+.ipsTooltip.ipsTooltip_bottom::after {
+    border-color: transparent transparent #0E0E0E transparent !important;
+}
+.ipsTooltip {
+    background: #0E0E0E !important;
+}
+
+/*
+Notifications.
+*/
+#elFlashMessage {
+	background: rgba(77,64,41,0.9) !important;
+	color: #efe5ca !important;
+}
+
+#elFlashMessage a {
+	color: #efe5ca !important;
+	border-bottom: 1px solid rgba(239,229,202,0.6) !important;
+}
+
+/*
+Separator.
+*/
+.ipsCommentUnreadSeperator {
+    border-color: #efe5ca !important;
+}
+
+
+/*
+Notification popup.
+*/
+#elFlashMessage.ipsFlashMsg_dismissable [data-action="dismissFlashMessage"] {
+    color: #efe5ca !important;
+    background: #58482E !important;
+}
+.ipsComposeArea_editorPaste .ipsComposeArea_editorPasteSwitch {
+    background: #58482E !important;
+    color: #efe5ca !important;
+}
+
+
+/*
+Search.
+*/
+#elSearch {
+    background: #333 !important;
+}
+.ipsApp input[type="search"] {
+	background-color: inherit !important;
+}
+#elSearchWrapper.cSearchExpanded {
+    background: transparent !important;
+}
+#elSearchExpanded {
+    border: 1px solid #161616 !important;
+    background: #333 !important;
+}
+#elSearchExpanded .ipsMenu_title {
+    border: 1px solid #333 !important;
+        border-bottom-color: #4D4029 !important;
+    background: #4D4029 !important;
+}
+#elSearchExpanded .ipsSideMenu_list {
+    background: #333 !important;
+    border: 1px solid #333 !important;
+}
+span.ipsSideMenu_item:not(.ipsSideMenu_itemActive):hover {
+    background: #4D4029 !important;
+}
+.fa-search::before {
+    color: #efe5ca88 !important;
+}
+
+
+
+/*
+Mobile stuffs.
+*/
+html[dir="ltr"] #elMobileBreadcrumb::before {
+    border-color: transparent transparent #efe5ca #efe5ca !important;
+}
+#elMobileBreadcrumb {
+   background-color: #efe5ca !important;
+}
+#elMobileNav li:not(#elMobileBreadcrumb) a {
+    color: #efe5ca88 !important;
+}
+.ipsDrawer_menu {
+    background: #333 !important;
+    box-shadow: 0px 0px 25px rgba(0,0,0,0.1) !important;
+}
+.ipsDrawer_itemParent > h4 > a {
+    color: #efe5ca !important;
+}
+.ipsDrawer_list > li > a:not(.ipsButton), .ipsDrawer_list > li:not(.ipsDrawer_itemParent) > a:not(.ipsButton) {
+    color: #efe5ca !important;
+    border-bottom: 1px solid #161616 !important;
+}
+.ipsDrawer_list [data-action="back"] a {
+    background: #4D4029 !important;
+}
+
+.ipsDrawer_close {
+	background: #58482E !important;
+	color: #efe5ca !important;
+}
+
+
+
+
+
+
