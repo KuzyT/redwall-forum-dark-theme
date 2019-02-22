@@ -2859,6 +2859,15 @@ Search.
     color: #efe5ca !important;
 }
 
+/*
+Embedded comments.
+*/
+.ipsRichEmbed_itemTitle {
+    color: #efe5ca !important;
+}
+.ipsRichEmbed_openItem {
+    color: #efe5ca !important;
+}
 
 
 /*
