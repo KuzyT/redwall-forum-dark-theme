@@ -2137,11 +2137,12 @@ hr.ipsHr {
 /*Fun starts here.---------------------------------------------------------------*/
 
 
+
 /*
 Multiquote button.
 */
 .ipsBox {
-    border: 1px solid #1C1712 !important;
+    border: 0px solid #1C1712 !important;
 }
 .ipsApp .ipsButton_light {
     background: #4D4029 !important;
@@ -2162,9 +2163,9 @@ Follow button.
     background: #222 !important;
 }
 .ipsApp .ipsButton_link {
-    background: transparent !important;
+    background: #333 !important;
     color: #efe5ca !important;
-    border: 1px solid #0E0E0E !important;
+    border: 0px solid #0E0E0E !important;
 }
 html[dir="ltr"] .ipsFollow .ipsCommentCount::after {
     border-color: transparent #353c41 transparent transparent !important;
@@ -2316,7 +2317,7 @@ Code editor.
 }
 
 .ipsApp select {
-    border: 1px solid #333 !important;
+    border: 0px solid #333 !important;
     background: #333 !important;
 }
 .ipsApp select:not([multiple]) {
@@ -2347,7 +2348,7 @@ Calendar.
 Main page stuffs.
 */
 html[dir] .ipsButton_split > .ipsButton.ipsButton_link, html[dir] .ipsButton_split > li > .ipsButton.ipsButton_link {
-    border: 0px solid #8d9aa6 !important;
+    border: 1px solid #333 !important;
 }
 .cForumMiniList.cForumMiniList_multiRoot > li > a {
     color: #efe5ca !important;
@@ -2359,7 +2360,7 @@ html[dir] .ipsButton_split > .ipsButton.ipsButton_link, html[dir] .ipsButton_spl
     background-color: #efe5ca !important;
 }
 .ipsAttachment_progress {
-    border: 1px solid #333 !important;
+    border: 0px solid #333 !important;
     background: #333 !important;
 }
 .ipsAttachment_progress > span {
@@ -2615,11 +2616,259 @@ html[dir="ltr"] #elMobileBreadcrumb::before {
 	color: #efe5ca !important;
 }
 
+#elMobileNav {
+    background: #4D4029 !important; 
+}
+
+
 /*
 PM active dialogue.
 */
 .cMessage_active {
     background: #161616 !important;
+}
+
+
+/*
+Background.
+*/
+body.ipsApp {
+    background: #161616 !important;
+}
+#ipsLayout_contentWrapper {
+    background: transparent !important;
+}
+
+
+/* 
+Dropdown menus. 
+*/
+#ipsLayout_footer a, #ipsLayout_footer p {
+	color: #efe5ca;
+}
+.ipsMenu {
+    border-color: transparent;
+}
+.ipsApp .ipsMenu .ipsButton_link {
+    border: 0px solid #0E0E0E !important;
+		background: transparent !important;
+}
+.ipsMenu.ipsMenu_bottomRight::before, .ipsMenu.ipsMenu_bottomLeft::before, .ipsMenu.ipsMenu_bottomCenter::before,
+.ipsMenu.ipsMenu_topRight::before, .ipsMenu.ipsMenu_topLeft::before, .ipsMenu.ipsMenu_topCenter::before {
+    border-color: transparent transparent transparent transparent !important; 
+}
+
+.ipsComposeArea_editor [data-action="closePreview"] {
+    background: #4D4029;
+    color: #efe5ca;
+}
+
+
+/*
+Posting form background.
+*/
+.ipsAreaBackground {
+    background: transparent;
+}
+
+.ipsComment:not(.ipsModerated) .ipsComment_header {
+    border-top: 0px solid #efe5ca;
+}
+
+/*
+Important button.
+*/
+.ipsApp .ipsButton_important {
+    background: #4D4029;
+        background-image: none;
+    color: #efe5ca;
+}
+
+.ipsType_sectionTitle a {
+    color: #efe5ca;
+}
+
+.ipsWidget.ipsWidget_vertical .ipsWidget_title, .ipsWidget.ipsWidget_horizontal .ipsWidget_title {
+    color: #efe5ca;
+}
+
+
+/*
+Notification settings header.
+*/
+.ipsTable.ipsMatrix thead th {
+    background: #4D4029;
+}
+.ipsTable.ipsMatrix thead th {
+    color: #efe5ca;
+   
+}
+
+/*
+Header.
+*/
+#ipsLayout_header nav {
+    background: #4D4029 !important;
+}
+.ipsNavBar_secondary {
+    background: #4D4029;
+		color:#efe5ca;
+}
+.ipsNavBar_primary > ul > li.ipsNavBar_active > a {
+    background: #4D4029;
+    color: #efe5ca;
+}
+.ipsNavBar_primary:not(.ipsNavBar_noSubBars) > ul::before {
+    background: transparent;
+}
+.ipsNavBar_secondary > li.ipsNavBar_active a {
+    font-weight: bold;
+    color: #efe5ca;
+}
+
+/*
+Weird button boi.
+*/
+.ipsApp .ipsButton_light {
+    background: #4D4029 !important;
+    border-color: rgba(0,0,0,0.03) !important;
+    color: #efe5ca !important;
+}
+
+
+
+/*
+Post editor.
+*/
+html[dir="ltr"] .ipsComposeArea_withPhoto .ipsComposeArea_editor::before {
+    border-color: transparent #272727 transparent transparent !important;
+}
+.ipsComposeArea_editor {
+    background: #272727 !important;
+}
+
+
+.ipsApp .cke_widget_wrapper:hover > .cke_widget_element, .ipsApp .cke_widget_wrapper:hover .cke_widget_editable {
+    outline-color: transparent !important;
+}
+.ipsApp .cke_widget_wrapper:hover
+.cke_widget_editable.cke_widget_editable_focused {
+	box-shadow: 0px 0px 0px rgba(0,0,0,075), 0px 0px 0px #efe5ca !important;
+}
+
+.cke_widget_wrapper.cke_widget_focused > .cke_widget_element, .cke_widget_wrapper
+.cke_widget_editable.cke_widget_editable_focused {
+	outline: 2px solid #efe5ca !important;
+}
+
+
+.ipsApp textarea:focus, .ipsApp input[type="text"]:focus, .ipsApp input[type="password"]:focus, .ipsApp input[type="datetime"]:focus, .ipsApp input[type="datetime-local"]:focus, .ipsApp input[type="date"]:focus, .ipsApp input[type="month"]:focus, .ipsApp input[type="time"]:focus, .ipsApp input[type="week"]:focus, .ipsApp input[type="number"]:focus, .ipsApp input[type="email"]:focus, .ipsApp input[type="url"]:focus, .ipsApp input[type="search"]:focus, .ipsApp input[type="tel"]:focus, .ipsApp input[type="color"]:focus {
+    box-shadow: none !important;
+    border-color: #efe5ca !important;
+    outline: 0 !important;
+}
+
+
+/*
+Topic creation menu.
+*/
+.ipsSelectTree {
+    border: 0px solid #f00 !important;
+		background: #333 !important;
+}
+.ipsSelectTree_expand {
+    color: #efe5ca !important;
+}
+.ipsSelectTree_nodes {
+    border: 0px solid rgba(82, 168, 236, 0.8) !important;
+    background: #333 !important;
+}
+.ipsSelectTree_nodes [data-role="nodeList"] {
+    background: #333 !important;
+    border: 1px solid rgba(0,0,0,0.2) !important;
+}
+.ipsSelectTree_nodes [data-role="nodeList"] li .ipsSelectTree_item:not(.ipsSelectTree_itemDisabled):hover {
+    background: #4D4029 !important;
+}
+.ipsApp .ipsButton_primary {
+    background: #4D4029 !important;
+    color: #efe5ca !important;
+}
+.ipsDialog_title, .ipsDialog_close {
+    color: #efe5ca !important;
+}
+
+
+/*
+Profile.
+*/
+.ipsCoverPhoto_container{
+	background-color: #654321 !important;
+}
+.ipsPageHead_barText, .ipsPageHead_barText_small {
+   background: #4D4029aa !important;
+   color:#efe5ca !important;
+}
+.ipsWidget.ipsWidget_vertical .ipsWidget_title, .ipsWidget.ipsWidget_horizontal .ipsWidget_title {
+   background: #4D4029 !important;
+   color:#efe5ca !important;
+}
+.ipsTabs_activeItem:hover, .ipsTabs_activeItem {
+    color: #efe5ca !important;
+}
+.ipsTabs_item:not(.ipsTabs_activeItem) {
+    background: rgba(0,0,0,0.2) !important;
+    color: #efe5ca !important;
+}
+.ipsTabs_item:not(.ipsTabs_activeItem):hover {
+    background: rgba(0,0,0,0.1) !important;
+    color: #efe5ca !important;
+}
+.ipsReactOverview ul img {
+    border: 2px solid #efe5ca !important;
+}
+#elProfileStats {
+    color: #efe5ca !important;
+    font-size: 15px !important;
+    font-weight: 500 !important;
+}
+.ipsApp .ipsButton_overlaid:hover, .ipsApp .ipsButton_overlaid:hover {
+  	background: #4D4029 !important;
+		color: #efe5ca !important;
+}
+.ipsFieldRow_section {
+  	background: #4D4029 !important;
+		color: #efe5ca !important;
+}
+
+
+
+
+/*
+Search.
+*/
+.ipsSideMenu_withChecks .ipsSideMenu_itemActive a::after, .ipsSideMenu_withChecks a.ipsSideMenu_itemActive::after, .ipsSideMenu_withChecks span.ipsSideMenu_itemActive::after, .ipsSideMenu_withRadios .ipsSideMenu_itemActive a::after, .ipsSideMenu_withRadios a.ipsSideMenu_itemActive::after, .ipsSideMenu_withRadios span.ipsSideMenu_itemActive::after, .ipsSideMenu_withChecks .ipsSideMenu_item > input[type="checkbox"]:checked ~ a::after, .ipsSideMenu_withChecks .ipsSideMenu_item > input[type="checkbox"]:checked ~ span:not(.ipsSideMenu_noCheck)::after, .ipsSideMenu_withRadios .ipsSideMenu_item > input[type="radio"]:checked ~ a::after, .ipsSideMenu_withRadios .ipsSideMenu_item > input[type="radio"]:checked ~ span:not(.ipsSideMenu_noCheck)::after {
+    color: #efe5ca !important;
+}
+
+.ipsSideMenu_withChecks .ipsSideMenu_item a::after, .ipsSideMenu_withChecks a.ipsSideMenu_item::after, .ipsSideMenu_withChecks span.ipsSideMenu_item::after, .ipsSideMenu_withRadios .ipsSideMenu_item a::after, .ipsSideMenu_withRadios a.ipsSideMenu_item::after, .ipsSideMenu_withRadios span.ipsSideMenu_item::after {
+    color: #efe5ca !important;
+}
+.ipsSideMenu_itemActive a, a.ipsSideMenu_itemActive, span.ipsSideMenu_itemActive, .ipsSideMenu_withChecks .ipsSideMenu_item > input[type="checkbox"]:checked ~ a, .ipsSideMenu_withChecks .ipsSideMenu_item > input[type="checkbox"]:checked ~ span, .ipsSideMenu_withRadios .ipsSideMenu_item > input[type="radio"]:checked ~ a, .ipsSideMenu_withRadios .ipsSideMenu_item > input[type="radio"]:checked ~ span {
+    background: #222 !important;
+    color: #efe5ca !important;
+}
+
+
+
+/*
+Color disabling.
+TODO: This is not a complete fix. Come up with something better.
+*/
+.cPost_contentWrap span
+{
+	background-color: inherit !important;
+	color: inherit !important;
 }
 
 ]]></css>
