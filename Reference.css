@@ -721,6 +721,16 @@ Search.
 }
 
 
+/*
+Embedded comments.
+*/
+.ipsRichEmbed_itemTitle {
+    color: #efe5ca !important;
+}
+.ipsRichEmbed_openItem {
+    color: #efe5ca !important;
+}
+
 
 /*
 Color disabling.
@@ -731,4 +741,6 @@ TODO: This is not a complete fix. Come up with something better.
 	background-color: inherit !important;
 	color: inherit !important;
 }
+
+
 
