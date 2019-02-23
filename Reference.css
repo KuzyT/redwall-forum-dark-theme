@@ -730,16 +730,29 @@ Embedded comments.
 .ipsRichEmbed_openItem {
     color: #efe5ca !important;
 }
+iframe[data-embedContent].ipsEmbed_finishedLoading {
+    background-color: #333 !important;
+}
 
 
 /*
-Color disabling.
-TODO: This is not a complete fix. Come up with something better.
+Event notification.
 */
-.cPost_contentWrap span
-{
-	background-color: inherit !important;
-	color: inherit !important;
+.ipsMessage_success {
+    background: #af1f52 !important;
+}
+
+/*
+More mobile stuffs.
+*/
+.ipsTabs {
+    border-top: 0px solid #e0e0e0 !important;
+}
+.ipsTabs [data-action="expandTabs"] {
+    color: #efe5ca !important;
+}
+.cMessage_members > ol > li {
+    border-bottom: 1px solid rgba(255,255,255,0.1)  !important;
 }
 
 
