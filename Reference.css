@@ -775,3 +775,15 @@ html[dir="ltr"] .ipsButton_split > .ipsButton:not(:first-child), html[dir="ltr"]
 
 
 
+/*
+Color disabling.
+*/
+.cPost_contentWrap span
+{
+	background-color: inherit !important;
+	color: inherit !important;
+}
+.ipsType_normal .ipsType_richText .ipsContained span, p a{
+	background-color: inherit !important;
+}
+
