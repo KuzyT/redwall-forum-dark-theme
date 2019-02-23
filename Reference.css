@@ -756,4 +756,22 @@ More mobile stuffs.
 }
 
 
+/*
+Grid view fix.
+*/
+.cForumGrid {
+		border: 0px solid rgba(0,0,0,0.1);
+	  background: #222;
+}
+
+
+/*
+Split button fix.
+*/
+html[dir="ltr"] .ipsButton_split > .ipsButton:not(:first-child), html[dir="ltr"] .ipsButton_split > li:not(:first-child) > .ipsButton {
+    border-left: 0px solid rgba(255,255,255,0.1) !important;
+		border-right: 0px solid rgba(255,255,255,0.1) !important;
+}
+
+
 
