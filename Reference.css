@@ -111,18 +111,6 @@ Bell and PM.
 
 
 /*
-Spoilers.
-*/
-.ipsSpoiler, .ipsStyle_spoiler{
-    background: #222 !important;
-    border-color: rgba(0,0,0,0.2) rgba(0,0,0,0.2) rgba(0,0,0,0.2) #000 !important;
-}
-.ipsSpoiler_header {
-    background: #111111 !important;
-    color: #efe5ca !important;
-}
-
-/*
 Chat mentions.
 */
 .ipsApp .ipsDataItem_new, .ipsApp .ipsDataItem_success {
@@ -770,16 +758,15 @@ Polls.
 
 
 /*
-Quotes.
+Quotes & spoilers.
 */
-.ipsQuote {
-    background: #262626 !important;
- 		border-width: 0px 0px 1px 0px !important;
-		border-color: #262626 !important;
+.ipsQuote, .ipsSpoiler, .ipsStyle_spoiler {
+		background: #262626 !important;
+  	border-color: #333 !important;
 		border-radius: 3px !important;
+		border-width: 0px 0px 1px 0px !important;	
 }
-
-.ipsQuote_citation {
+.ipsQuote_citation, .ipsSpoiler_header {
     background: #4D4029 !important;
     color: #efe5ca !important;
 		border-radius: 3px 3px 0px 0px !important;
@@ -790,7 +777,9 @@ Quotes.
 .ipsQuote_citation.ipsQuote_open [data-action="toggleQuote"]::before {
     color: #efe5ca !important;
 }
-
+.ipsSpoiler .ipsSpoiler_header a, .ipsStyle_spoiler .ipsSpoiler_header a, .ipsSpoiler_header.ipsSpoiler_open [data-action="toggleSpoiler"]::before {
+    color: #efe5ca;
+}
 
 /*
 Color disabling.
