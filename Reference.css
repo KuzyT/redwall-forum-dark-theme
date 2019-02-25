@@ -8,12 +8,12 @@ Multiquote button.
 .ipsApp .ipsButton_light {
     background: #4D4029 !important;
     border-color: rgba(0,0,0,0.03) !important;
-    color: #DAE5A2 !important;
+    color: #efe5ca !important;
 }
 .ipsApp .ipsButton_veryLight {
     background: #4D4029 !important;
     border-color: rgba(0,0,0,0.03) !important;
-    color: #DAE5A2 !important;
+    color: #efe5ca !important;
 }
 
 
@@ -190,8 +190,8 @@ Code editor.
 
 
 .ipsCode {
-    background: #0E0E0E !important;
-		border-left: 4px solid #efe5ca !important;
+    background: #262626 !important;
+		border-left: 4px solid #444 !important;
 }
 .pln {
     color: #efe5ca !important;
@@ -203,6 +203,10 @@ Calendar.
 */
 .ipsSticky {
     background: #333 !important;
+}
+.ipsWidget .ipsCalendarDate {
+    background: transparent !important;
+		border: 0px solid rgba(0,0,0,0.2);
 }
 
 /*
@@ -371,10 +375,10 @@ Notifications.
 Quote tooltip.
 */
 .ipsTooltip.ipsTooltip_bottom::after {
-    border-color: transparent transparent #0E0E0E transparent !important;
+    border-color: transparent transparent #222 transparent !important;
 }
 .ipsTooltip {
-    background: #0E0E0E !important;
+    background: #222 !important;
 }
 
 /*
@@ -394,7 +398,7 @@ Notifications.
 Separator.
 */
 .ipsCommentUnreadSeperator {
-    border-color: #efe5ca !important;
+    border-color: #333 !important;
 }
 
 
@@ -494,7 +498,7 @@ PM active dialogue.
 Background.
 */
 body.ipsApp {
-    background: #161616 !important;
+    background: #191917 !important;
 }
 #ipsLayout_contentWrapper {
     background: transparent !important;
@@ -730,60 +734,68 @@ Embedded comments.
 .ipsRichEmbed_openItem {
     color: #efe5ca !important;
 }
-iframe[data-embedContent].ipsEmbed_finishedLoading {
-    background-color: #333 !important;
-}
 
 
-/*
-Event notification.
-*/
 .ipsMessage_success {
-    background: #af1f52 !important;
+    background: #af1f52;
+}
+.ipsTabs {
+    border-top: 0px solid #e0e0e0;
 }
 
+
 /*
-More mobile stuffs.
+PM weird border fix.
 */
-.ipsTabs {
-    border-top: 0px solid #e0e0e0 !important;
+.cMessage_members > ol > li {
+    border-bottom: 0px solid rgba(255,255,255,0.1) !important;
+    border-right: 0px solid #333 !important;
 }
-.ipsTabs [data-action="expandTabs"] {
+
+
+/*
+Polls.
+*/
+.cPollVoteBar {
+    border-radius: 2px !important;
+    background: #d0d0d00f !important;
+}
+.cPollVoteBar > span::after {
+    color: #d0d0d0 !important;
+}
+.cPollVoteBar > span {
+    background: #6b6b6b !important;
+    border-radius: 2px !important;
+}
+
+
+/*
+Quotes.
+*/
+.ipsQuote {
+    background: #262626 !important;
+ 		border-width: 0px 0px 1px 0px !important;
+		border-color: #262626 !important;
+		border-radius: 3px !important;
+}
+.ipsQuote_citation {
+    background: #4D4029 !important;
+    color: #efe5ca !important;
+		border-radius: 3px !important;
+}
+.ipsQuote .ipsQuote_citation a {
     color: #efe5ca !important;
 }
-.cMessage_members > ol > li {
-    border-bottom: 1px solid rgba(255,255,255,0.1)  !important;
+.ipsQuote_citation.ipsQuote_open [data-action="toggleQuote"]::before {
+    color: #efe5ca !important;
 }
-
-
-/*
-Grid view fix.
-*/
-.cForumGrid {
-		border: 0px solid rgba(0,0,0,0.1);
-	  background: #222;
-}
-
-
-/*
-Split button fix.
-*/
-html[dir="ltr"] .ipsButton_split > .ipsButton:not(:first-child), html[dir="ltr"] .ipsButton_split > li:not(:first-child) > .ipsButton {
-    border-left: 0px solid rgba(255,255,255,0.1) !important;
-		border-right: 0px solid rgba(255,255,255,0.1) !important;
-}
-
 
 
 /*
 Color disabling.
 */
-.cPost_contentWrap span
-{
+.ipsType_normal.ipsType_richText.ipsContained span, p, p a, strong, u, s, em, kwd{
 	background-color: inherit !important;
 	color: inherit !important;
-}
-.ipsType_normal .ipsType_richText .ipsContained span, p a{
-	background-color: inherit !important;
 }
 
