@@ -1,0 +1,532 @@
+.ipsWidget_title .ipsType_light {
+    color: #efe5ca !important;
+}
+
+/*
+Background.
+*/
+#ipsLayout_body.ipsLayout_container {
+    background: #fffaecd0 !important;
+}
+
+
+/*
+Forum list background.
+*/
+.cForumList .ipsDataItem {
+    background-color: #f8f1e0 !important;
+}
+
+
+/*
+Header.
+*/
+#ipsLayout_header header {
+    background-color: #f8f1e0d0 !important;
+}
+#ipsLayout_header nav {
+    background: #654321 !important;
+}
+.ipsNavBar_secondary {
+    background: #654321 !important;
+        color:#efe5ca !important;
+}
+.ipsNavBar_primary > ul > li.ipsNavBar_active > a {
+    background: #654321 !important;
+    color: #efe5ca !important;
+}
+.ipsNavBar_primary:not(.ipsNavBar_noSubBars) > ul::before {
+    background: transparent !important;
+}
+.ipsNavBar_secondary > li.ipsNavBar_active a {
+    font-weight: bold !important;
+    color: #efe5ca !important;
+}
+#elUserNav > li > a, #elFooterSocialLinks > li > a {
+    color: #654321 !important;
+}
+.ipsNavBar_primary > ul > li > a, .ipsNavBar_primary > ul > li > a:hover {
+    background: #e6d8b1 !important;
+    color: #282828aa
+}
+.ipsNavBar_primary > ul > li > a:hover {
+    background: #654321 !important;
+        color: #fff !important;
+}
+.ipsNavBar_secondary > li > a {
+    color: #ffffffaa !important;
+}
+.ipsNavBar_secondary > li > a:hover {
+    color: #fff !important;
+}
+
+
+/*
+Search.
+*/
+#elSearch {
+    background: #e6d8b1 !important;
+}
+
+
+/* 
+Comment counter.
+*/
+html[dir="ltr"] .ipsCommentCount::after {
+    border-color: transparent #654321 transparent transparent !important;
+}
+.ipsCommentCount {
+    background: #654321 !important;
+}
+html[dir="ltr"] .ipsCommentCount.ipsFaded::after {
+    border-color: transparent #e6d8b1 transparent transparent !important;
+}
+.ipsCommentCount.ipsFaded {
+    background: #e6d8b1 !important;
+        color: #282828aa !important;
+        opacity: 1 !important;
+}
+
+
+/*
+Tag.
+*/
+html[dir="ltr"] .ipsTags .ipsTag:hover::before {
+    border-color: transparent transparent #654321 #654321 !important;
+}
+.ipsTags .ipsTag:hover {
+    background: #654321 !important;
+}
+html[dir="ltr"] .ipsTags .ipsTag::before {
+    border-color: transparent transparent #654321 #654321 !important;
+}
+.ipsTags .ipsTag {
+    background: #654321 !important;
+}
+
+
+
+/*
+Profile.
+*/
+.ipsPageHead_barText, .ipsPageHead_barText_small {
+    background: #6543214d !important;
+    border-radius: 3px !important;
+}
+#elProfileStats {
+    background: #fffbee !important;
+      color: inherit !important;
+}
+.ipsAreaBackground_reset {
+    background: #f8f1e0 !important;
+}
+
+
+/* 
+Calendar.
+*/
+.ipsWidget .ipsCalendarDate {
+    background: transparent !important;
+        border: 0px solid rgba(0,0,0,0.2) !important;
+}
+
+
+/*
+Toggle switch fix.
+*/
+.ipsToggle.ipsToggle_off {
+    color: transparent !important;
+}
+.ipsToggle.ipsToggle_on {
+    color: transparent !important;
+}
+
+
+/*
+Comment background.
+*/
+.ipsBox:not(.ipsBox_transparent):not(.ipsModerated) {
+    background-color: #f8f1e0 !important;
+}
+.ipsComment {
+    background-color: #f8f1e0 !important;
+}
+.ipsComment:not(.ipsModerated) .ipsComment_header {
+    background: #e6d8b1 !important;
+    border-top: 0px solid #a3a7a9 !important;
+}
+
+
+/*
+Multiquote button.
+*/
+.ipsApp .ipsButton_light {
+    background: #654321 !important;
+    border-color: rgba(0,0,0,0.03) !important;
+    color: #efe5ca !important;
+}
+.ipsApp .ipsButton_veryLight {
+    background: #654321 !important;
+    border-color: rgba(0,0,0,0.03) !important;
+    color: #efe5ca !important;
+}
+
+
+/*
+Chat.
+*/
+.ipsAreaBackground_light {
+    background: #f8f1e0 !important;
+}
+.bimcb_chatInput {
+    background: #fffaec !important;
+}
+.ipsMessage_success {
+    background: #af1f52 !important;
+}
+.ipsApp .ipsDataItem_new, .ipsApp .ipsDataItem_success {
+    background-color: #e6d8b1 !important;
+}
+/*
+.ipsTabs {
+    border-top: 0px solid #e0e0e0 !important;
+}
+*/
+
+/*
+Quotes & spoilers.
+*/
+.ipsQuote, .ipsSpoiler, .ipsStyle_spoiler {
+        background: #e6d8b1 !important;
+    border-radius: 3px !important;
+        border-width: 0px 0px 1px 0px !important;   
+}
+.ipsQuote_citation, .ipsSpoiler_header {
+    background: #654321 !important;
+    color: #efe5ca !important;
+        border-radius: 3px 3px 0px 0px !important;
+}
+.ipsQuote .ipsQuote_citation a {
+    color: #efe5ca !important;
+}
+.ipsQuote_citation.ipsQuote_open [data-action="toggleQuote"]::before {
+    color: #efe5ca !important;
+}
+.ipsSpoiler .ipsSpoiler_header a, .ipsStyle_spoiler .ipsSpoiler_header a, .ipsSpoiler_header.ipsSpoiler_open [data-action="toggleSpoiler"]::before {
+    color: #efe5ca !important;
+}
+
+
+
+/*
+PM.
+*/
+.ipsApp .ipsDataItem_selected {
+    background-color: #e6d8b1 !important;
+}
+.ipsButtonBar {
+    background: transparent !important;
+    border-bottom: 0px solid rgba(0,0,0,0.1) !important;
+}
+.ipsButtonBar .ipsButtonRow li > a, .ipsButtonBar .ipsButtonRow li > button, .ipsButtonBar .ipsButtonRow li > span {
+    background: #f8f1e0 !important;
+}
+
+/*
+Light buttons.
+*/
+.ipsApp .ipsButtonBar .ipsPagination .ipsPagination_page a, .ipsApp .ipsButtonBar .ipsPagination .ipsPagination_next a, .ipsApp .ipsButtonBar .ipsPagination .ipsPagination_prev a, .ipsApp .ipsButtonBar .ipsPagination .ipsPagination_first a, .ipsApp .ipsButtonBar .ipsPagination .ipsPagination_last a{
+    background: #e6d8b1 !important;
+}
+.ipsButtonBar .ipsPagination .ipsPagination_page.ipsPagination_active a {
+    background: #4a3118 !important;
+    border-color: #4a3118 !important;
+    color: #fff !important;
+}
+
+/*
+Menus.
+*/
+.ipsSideMenu_itemActive a, a.ipsSideMenu_itemActive, span.ipsSideMenu_itemActive, .ipsSideMenu_withChecks .ipsSideMenu_item > input[type="checkbox"]:checked ~ a, .ipsSideMenu_withChecks .ipsSideMenu_item > input[type="checkbox"]:checked ~ span, .ipsSideMenu_withRadios .ipsSideMenu_item > input[type="radio"]:checked ~ a, .ipsSideMenu_withRadios .ipsSideMenu_item > input[type="radio"]:checked ~ span {
+    background: #654321 !important;
+    color: #fff !important;
+}
+.ipsSideMenu_item:not(.ipsSideMenu_itemActive) a:hover, a.ipsSideMenu_item:not(.ipsSideMenu_itemActive):hover, span.ipsSideMenu_item:not(.ipsSideMenu_itemActive):hover {
+    background: #e6d8b1 !important;
+}
+
+
+
+/*
+Activity timeline.
+*/
+.ipsStreamItem_time {
+    background: #654321 !important;
+    color: #efe5ca !important;
+}
+.ipsStream .ipsStreamItem_contentType {
+    background: #654321 !important;
+    color: #efe5ca !important;
+      border: 2px solid #654321 !important;
+}
+html[dir="ltr"] .ipsStream.ipsStream_withTimeline {
+    border-left: 3px solid #654321 !important;
+}
+html[dir] .ipsStream_withTimeline .ipsStreamItem.ipsStreamItem_actionBlock::after {
+    background: #654321 !important;
+}
+
+/*
+Activity posts.
+*/
+.ipsStreamItem.ipsStreamItem_contentBlock {
+    border: 0px solid #d9d9d9 !important;
+}
+.ipsStreamItem_snippet .ipsType_richText {
+    color: inherit !important;
+}
+
+
+/*
+Polls.
+*/
+.cPollVoteBar {
+    background: #e6d8b1 !important;
+}
+
+.ipsTooltip.ipsTooltip_bottom::after {
+    border-color: transparent transparent #e6d8b1 transparent !important;
+}
+.ipsTooltip.ipsTooltip_top::after {
+    border-color: #d0c4a0 transparent  transparent transparent !important;
+}
+.ipsTooltip {
+    background: #d0c4a0 !important;
+        color: #222 !important;
+}
+
+
+/*
+Event.
+*/
+#elEventHeader_details {
+    background: #654321 !important;
+}
+
+/*
+Karma.
+*/
+.ipsReact_types ul {
+    background: #e6d8b1
+}
+
+
+/*
+Mobile stuffs.
+*/
+html[dir="ltr"] #elMobileBreadcrumb::before {
+    border-color: transparent transparent #efe5ca #efe5ca !important;
+}
+#elMobileBreadcrumb {
+   background-color: #efe5ca !important;
+}
+.ipsDrawer_itemParent > h4 {
+    color: #222 !important;
+}
+#elMobileNav li:not(#elMobileBreadcrumb) a {
+    color: #efe5ca88 !important;
+}
+.ipsDrawer_menu {
+    background: #f8f1e0 !important;
+    box-shadow: 0px 0px 25px rgba(0,0,0,0.1) !important;
+}
+.ipsDrawer_itemParent > h4 > a {
+    color: #222 !important;
+}
+.ipsDrawer_list > li > a:not(.ipsButton), .ipsDrawer_list > li:not(.ipsDrawer_itemParent) > a:not(.ipsButton) {
+    color: #222 !important;
+}
+
+.ipsDrawer_close {
+    background: #654321 !important;
+    color: #efe5ca !important;
+}
+
+#elMobileNav {
+    background: #654321 !important; 
+}
+.ipsDrawer_list [data-action="back"] a {
+    background: #e6d8b1 !important;
+}
+.ipsDrawer_list > li > a:not(.ipsButton), .ipsDrawer_list > li:not(.ipsDrawer_itemParent) > a:not(.ipsButton) {
+    color: #222 !important;
+}
+
+.ipsDrawer_itemParent > h4 {
+    border-bottom: 1px solid #65432199 !important;
+    border-top: 1px solid rgba(255,255,255,0.05) !important;
+}
+.ipsDrawer_list > li > a:not(.ipsButton), .ipsDrawer_list > li:not(.ipsDrawer_itemParent) > a:not(.ipsButton) {
+    border-bottom: 1px solid #65432199 !important;
+    border-top: 1px solid rgba(255,255,255,0.05) !important;
+}
+.cUserNav_icon a {
+    color: #654321 !important;
+}
+
+
+
+
+/*
+Journals.
+*/
+
+#elBlogHeaderStats {
+    background: #654321 !important;
+        padding: 10px !important;
+}
+.cBlockView_stats .ipsType_minorHeading {
+    color: #fff !important;
+}
+
+
+/*
+Follow button.
+*/
+.ipsApp .ipsButton_link.ipsFollow, .ipsApp .ipsButton_link.ipsPromote {
+    background: #e6d8b1 !important;
+        color: #654321dd !important;
+        border: 0px solid #000 !important;
+}
+
+
+/*
+Post editor.
+*/
+.ipsComposeArea_editorPaste {
+    background: #654321 !important;
+}
+.ipsComposeArea_editorPaste .ipsComposeArea_editorPasteSwitch {
+    background: #654321 !important;
+}
+
+.ipsApp .ipsButton_link {
+        background: #e6d8b1 !important;
+        color: #654321dd !important;
+        border: 0px solid #000 !important;
+}
+
+/*
+Switches.
+*/
+html[dir] .ipsButton_split > .ipsButton.ipsButton_link, html[dir] .ipsButton_split > li > .ipsButton.ipsButton_link {
+    border: 0px solid #8d9aa6 !important;
+}
+.ipsApp .ipsButton_primary {
+    border: 0px !important;
+}
+
+
+.ipsEmbeddedVideo {
+    width: 500 !important;
+    height: 300 !important;
+}
+.ipsEmbeddedVideo iframe{
+    width: 70% !important;
+    height: 70% !important;
+}
+
+
+/*
+Menu.
+*/
+.ipsMenu_title {
+    background: #654321 !important;
+        color: #fff !important;
+        border-radius: 3px !important;
+}
+
+.ipsMenu.ipsMenu_topCenter::after, .ipsMenu.ipsMenu_topRight::after, .ipsMenu.ipsMenu_topLeft::after {
+    border-color: #e6d8b1 transparent transparent transparent !important;
+}
+.ipsMenu.ipsMenu_bottomCenter::after, .ipsMenu.ipsMenu_bottomRight::after, .ipsMenu.ipsMenu_bottomLeft::after {
+    border-color: transparent transparent #e6d8b1 transparent !important;
+}
+
+.ipsMenu {
+    background: #e6d8b1 !important;
+        border: 0px solid #ddd !important;
+}
+.ipsMenu_sep {
+    border-top: 1px solid #65432133 !important;
+}
+
+.ipsButtonRow li > a.ipsButtonRow_active, .ipsButtonRow li > button.ipsButtonRow_active {
+    background: #4a3118 !important;
+    border-color: #4a3118 !important;
+    color: #fff !important;
+    text-shadow: none !important;
+}
+
+
+/*
+Message lists.
+*/
+.ipsDataList[data-role="inboxList"] .cMessage  {
+    background: #fffff0 !important;
+}
+.ipsMenu_headerBar {
+    border-bottom: 1px solid #654321 !important;
+}
+.ipsMenu_footerBar {
+    border-top: 1px solid #654321 !important;
+}
+.ipsMenu_headerBar, .ipsMenu_footerBar {
+    background: #e6d8b1 !important;
+}
+
+
+.ipsAreaBackground {
+    background: transparent !important;
+}
+.ipsComposeArea_editor {
+    background: #e6d8b1 !important;
+}
+html[dir="ltr"] .ipsComposeArea_withPhoto .ipsComposeArea_editor::before {
+    border-color: transparent #e6d8b1 transparent transparent !important;
+}
+
+
+
+/*
+Notifications.
+*/
+#elFlashMessage {
+    background: #e6d8b1 !important;
+    color: #222 !important;
+    box-shadow: 0px 2px 3px rgba(0,0,0,0.2) !important;
+}
+
+#elFlashMessage a {
+    color: #222 !important;
+    background: #654321 !important;
+    border-bottom: 1px solid rgba(239,229,202,0.6) !important;
+}
+#elFlashMessage a[data-action="dismissFlashMessage"] {
+    color: #e6d8b1 !important;
+    background: #654321 !important;
+    border-bottom: 1px solid rgba(239,229,202,0.6) !important;
+}
+.ipsNotificationCount {
+    color: #fff !important;
+    background: #cc5353 !important;
+}
+
+
+/*
+Loading message.
+*/
+#elAjaxLoading {
+    background: #654321 !important;
+    color: #fff !important;
+}
