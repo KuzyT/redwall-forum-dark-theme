@@ -196,6 +196,11 @@ Calendar.
     background: transparent !important;
 		border: 0px solid rgba(0,0,0,0.2);
 }
+.ipsCalendarDate {
+    border: 0px solid rgba(0,0,0,0.2) !important;
+    background: #333 !important;
+}
+
 
 /*
 Main page stuffs.
@@ -778,7 +783,7 @@ Quotes & spoilers.
     color: #efe5ca !important;
 }
 .ipsSpoiler .ipsSpoiler_header a, .ipsStyle_spoiler .ipsSpoiler_header a, .ipsSpoiler_header.ipsSpoiler_open [data-action="toggleSpoiler"]::before {
-    color: #efe5ca;
+    color: #efe5ca !important;
 }
 
 /*
@@ -788,4 +793,41 @@ Color disabling.
 	background-color: inherit !important;
 	color: inherit !important;
 }
+
+
+/*
+Embedded comments.
+*/
+iframe[data-embedContent].ipsEmbed_finishedLoading {
+    background-color: #333 !important;
+    border: 0px solid rgba(0,0,0,0.1) !important;
+}
+
+
+/*
+Gallery.
+*/
+.cGalleryLightbox_info {
+    background: #333 !important;
+}
+.cGalleryLightbox_info:not(.ipsComposeArea_editor) .ipsAreaBackground_light {
+    background: #333 !important;
+}
+.cGalleryLightbox_info .ipsComposeArea_editor .ipsAreaBackground_light {
+    background: #222 !important;
+}
+.elGalleryImage .ipsButton.ipsButton_link {
+    background: #4D402940 !important;
+    color: #efe5ca !important;
+    border: 0px solid #efe5ca !important;
+}
+.elGalleryImageNav a {
+	color: #efe5ca !important;
+}
+.cLightboxClose {
+    background: #222 !important;
+    color: #efe5ca !important;
+}
+
+
 
