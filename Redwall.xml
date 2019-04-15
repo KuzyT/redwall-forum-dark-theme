@@ -6569,6 +6569,12 @@ Preview.
 }
 
 
+/*
+Mobile comment header.
+*/
+.cPost.ipsComment:not(.ipsComment_selected):not(.ipsModerated) .cAuthorPane_mobile  {
+    background: #e6d8b1 !important;
+}
 
 
 
