@@ -830,4 +830,25 @@ Gallery.
 }
 
 
+/*
+Toggle.
+*/
+.ipsToggle.ipsToggle_off {
+    background: #222 !important;
+    color: transparent !important;
+}
+.ipsToggle.ipsToggle_on {
+    color: transparent !important;
+}
+.ipsToggle span::after {
+    color: #9c9c9c !important;
+}
+.ipsToggle span {
+    background: #9c9c9c !important;
+}
+.ipsToggle:focus, .ipsApp .ipsCustomInput input:focus + span {
+    border-color: transparent !important;
+    box-shadow: none !important;
+}
+
 
