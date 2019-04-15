@@ -538,3 +538,10 @@ Reaction count/
     background: #65432140 !important;
     color: #222 !important;
 }
+
+/*
+Preview.
+*/
+.ipsComposeArea_editor [data-action="closePreview"] {
+    background: #654321 !important;
+}
