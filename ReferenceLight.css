@@ -1,3 +1,6 @@
+
+
+
 .ipsWidget_title .ipsType_light {
     color: #efe5ca !important;
 }
@@ -75,8 +78,10 @@ Comment counter.
 html[dir="ltr"] .ipsCommentCount::after {
     border-color: transparent #654321 transparent transparent !important;
 }
+
 .ipsCommentCount {
     background: #654321 !important;
+    color: #e6d8b1 !important;
 }
 html[dir="ltr"] .ipsCommentCount.ipsFaded::after {
     border-color: transparent #e6d8b1 transparent transparent !important;
@@ -376,11 +381,9 @@ html[dir="ltr"] #elMobileBreadcrumb::before {
 
 
 
-
 /*
 Journals.
 */
-
 #elBlogHeaderStats {
     background: #654321 !important;
         padding: 10px !important;
@@ -424,16 +427,6 @@ html[dir] .ipsButton_split > .ipsButton.ipsButton_link, html[dir] .ipsButton_spl
 }
 .ipsApp .ipsButton_primary {
     border: 0px !important;
-}
-
-
-.ipsEmbeddedVideo {
-    width: 500 !important;
-    height: 300 !important;
-}
-.ipsEmbeddedVideo iframe{
-    width: 70% !important;
-    height: 70% !important;
 }
 
 
@@ -529,4 +522,19 @@ Loading message.
 #elAjaxLoading {
     background: #654321 !important;
     color: #fff !important;
+}
+
+
+
+/*
+Reaction count/
+*/
+.ipsReact_reactCount {
+    border: 1px solid #65432140 !important;
+    background: #e6d8b1 !important;  
+        border-radius: 2px !important;
+}
+.ipsReact_reactCount > span > span:last-child, .ipsReact_reactCount > a > span:last-child {
+    background: #65432140 !important;
+    color: #222 !important;
 }
