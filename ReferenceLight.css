@@ -45,9 +45,6 @@ Header.
     font-weight: bold !important;
     color: #efe5ca !important;
 }
-#elUserNav > li > a, #elFooterSocialLinks > li > a {
-    color: #654321 !important;
-}
 .ipsNavBar_primary > ul > li > a, .ipsNavBar_primary > ul > li > a:hover {
     background: #e6d8b1 !important;
     color: #282828aa
@@ -527,7 +524,7 @@ Loading message.
 
 
 /*
-Reaction count/
+Reaction count.
 */
 .ipsReact_reactCount {
     border: 1px solid #65432140 !important;
@@ -552,4 +549,29 @@ Mobile comment header.
 */
 .cPost.ipsComment:not(.ipsComment_selected):not(.ipsModerated) .cAuthorPane_mobile  {
     background: #e6d8b1 !important;
+}
+
+/*
+Gallery.
+*/
+.cGalleryPatchwork_item .ipsPhotoPanel {
+    background: #654321f0 !important;
+}
+.cGalleryLightbox_info {
+    background: #fffaec !important;
+}
+.cGalleryLightbox_info:not(.ipsComposeArea_editor) .ipsAreaBackground_light {
+    background: #fffaec !important;
+}
+.elGalleryImage .ipsButton.ipsButton_link {
+    background: #65432150 !important;
+    color: #efe5ca !important;
+    border: 0px solid #efe5ca !important;
+}
+.elGalleryImageNav a {
+    color: #efe5ca !important;
+}
+.cLightboxClose {
+    background: #4D4029 !important;
+    color: #efe5ca !important;
 }
