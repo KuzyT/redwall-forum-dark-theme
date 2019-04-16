@@ -6051,6 +6051,9 @@ Header.
 #ipsLayout_header nav {
     background: #654321 !important;
 }
+#elUserNav > li > a {
+    color: #654321 !important;
+}
 .ipsNavBar_secondary {
     background: #654321 !important;
         color:#efe5ca !important;
