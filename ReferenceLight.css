@@ -38,6 +38,9 @@ Header.
     background: #654321 !important;
     color: #efe5ca !important;
 }
+#elUserNav > li > a {
+    color: #654321 !important;
+}
 .ipsNavBar_primary:not(.ipsNavBar_noSubBars) > ul::before {
     background: transparent !important;
 }
