@@ -6022,6 +6022,9 @@ html[dir] .ipsStream.ipsStream_withTimeline .ipsStreamItem.ipsStreamItem_condens
 
 
 
+
+
+
 .ipsWidget_title .ipsType_light {
     color: #efe5ca !important;
 }
@@ -6051,9 +6054,6 @@ Header.
 #ipsLayout_header nav {
     background: #654321 !important;
 }
-#elUserNav > li > a {
-    color: #654321 !important;
-}
 .ipsNavBar_secondary {
     background: #654321 !important;
         color:#efe5ca !important;
@@ -6061,6 +6061,9 @@ Header.
 .ipsNavBar_primary > ul > li.ipsNavBar_active > a {
     background: #654321 !important;
     color: #efe5ca !important;
+}
+#elUserNav > li > a {
+    color: #654321 !important;
 }
 .ipsNavBar_primary:not(.ipsNavBar_noSubBars) > ul::before {
     background: transparent !important;
@@ -6300,6 +6303,25 @@ html[dir="ltr"] .ipsStream.ipsStream_withTimeline {
 }
 html[dir] .ipsStream_withTimeline .ipsStreamItem.ipsStreamItem_actionBlock::after {
     background: #654321 !important;
+}
+
+.ipsAreaBackground_reset[data-role="activityItem"] {
+    background: #e6d8b1 !important;
+		border-radius: 3px;
+}
+.ipsStreamItem.ipsStreamItem_actionBlock.ipsStreamItem_expanded {
+    padding-left: 12px !important;
+  	padding-top: 8px !important;
+    padding-bottom: 8px !important;
+}
+.ipsItemStatus.ipsItemStatus_read:not(.ipsItemStatus_large) {
+    color: #fff;
+}
+html[dir="ltr"] .ipsStream_withTimeline .ipsStreamItem::after {
+    border-color: transparent #e6d8b1 transparent transparent;
+}
+html[dir="ltr"] .ipsStream_withTimeline .ipsStreamItem.ipsStreamItem_contentBlock::before {
+    border-color: transparent #e6d8b1 transparent transparent !important;
 }
 
 /*
@@ -6548,18 +6570,17 @@ Loading message.
 
 
 /*
-Reaction count/
+Reaction count.
 */
 .ipsReact_reactCount {
     border: 1px solid #65432140 !important;
     background: #e6d8b1 !important;  
-		border-radius: 2px !important;
+        border-radius: 2px !important;
 }
 .ipsReact_reactCount > span > span:last-child, .ipsReact_reactCount > a > span:last-child {
     background: #65432140 !important;
     color: #222 !important;
 }
-
 
 /*
 Preview.
@@ -6575,7 +6596,6 @@ Mobile comment header.
 .cPost.ipsComment:not(.ipsComment_selected):not(.ipsModerated) .cAuthorPane_mobile  {
     background: #e6d8b1 !important;
 }
-
 
 /*
 Gallery.
@@ -6601,6 +6621,21 @@ Gallery.
     background: #4D4029 !important;
     color: #efe5ca !important;
 }
+
+
+
+/*
+Karma.
+*/
+.ipsReact_types ul {
+    background: #e6d8b1 !important
+}
+.ipsReact_unreact {
+	background: #e6d8b1 !important;
+	color: #654321 !important;
+}
+
+
 
 
 
