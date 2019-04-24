@@ -281,6 +281,25 @@ html[dir] .ipsStream_withTimeline .ipsStreamItem.ipsStreamItem_actionBlock::afte
     background: #654321 !important;
 }
 
+.ipsAreaBackground_reset[data-role="activityItem"] {
+    background: #e6d8b1 !important;
+        border-radius: 3px;
+}
+.ipsStreamItem.ipsStreamItem_actionBlock.ipsStreamItem_expanded {
+    padding-left: 12px !important;
+    padding-top: 8px !important;
+    padding-bottom: 8px !important;
+}
+.ipsItemStatus.ipsItemStatus_read:not(.ipsItemStatus_large) {
+    color: #fff;
+}
+html[dir="ltr"] .ipsStream_withTimeline .ipsStreamItem::after {
+    border-color: transparent #e6d8b1 transparent transparent;
+}
+html[dir="ltr"] .ipsStream_withTimeline .ipsStreamItem.ipsStreamItem_contentBlock::before {
+    border-color: transparent #e6d8b1 transparent transparent !important;
+}
+
 /*
 Activity posts.
 */
@@ -578,3 +597,17 @@ Gallery.
     background: #4D4029 !important;
     color: #efe5ca !important;
 }
+
+
+
+/*
+Karma.
+*/
+.ipsReact_types ul {
+    background: #e6d8b1 !important
+}
+.ipsReact_unreact {
+    background: #e6d8b1 !important;
+    color: #654321 !important;
+}
+
