@@ -20,10 +20,53 @@ Forum list background.
     background-color: #f8f1e0 !important;
 }
 
+#ipsLayout_header header {
+    background-color: #654321f0 !important;
+}
+#ipsLayout_header nav {
+    background: #e6d8b1 !important;
+}
+.ipsNavBar_secondary {
+    background: #e6d8b1 !important;
+        color:#654321 !important;
+}
+.ipsNavBar_primary > ul > li.ipsNavBar_active > a {
+    background: #e6d8b1 !important;
+    color: #654321 !important;
+}
+
+.ipsNavBar_primary:not(.ipsNavBar_noSubBars) > ul::before {
+    background: transparent !important;
+}
+.ipsNavBar_secondary > li.ipsNavBar_active a {
+    font-weight: bold !important;
+    color: #654321 !important;
+}
+.ipsNavBar_primary > ul > li > a, .ipsNavBar_primary > ul > li > a:hover {
+    background: #654321 !important;
+    color: #e6d8b1
+}
+.ipsNavBar_primary > ul > li > a:hover {
+    background: #e6d8b1 !important;
+        color: #654321 !important;
+}
+.ipsNavBar_secondary > li > a {
+    color: #654321c0 !important;
+}
+.ipsNavBar_secondary > li > a:hover {
+    color: #654321 !important;
+}
+.cUserNav_icon a {
+    color: #e6d8b1 !important;
+}
+
+
+
 
 /*
-Header.
+Header inv.
 */
+/*
 #ipsLayout_header header {
     background-color: #f8f1e0d0 !important;
 }
@@ -62,6 +105,7 @@ Header.
 .ipsNavBar_secondary > li > a:hover {
     color: #fff !important;
 }
+*/
 
 
 /*
@@ -69,6 +113,13 @@ Search.
 */
 #elSearch {
     background: #e6d8b1 !important;
+}
+#elSearchWrapper.cSearchExpanded {
+    background: transparent !important;
+}
+#elSearchExpanded {
+    background: #fffaec !important;
+    border: 1px solid #fffaec !important;
 }
 
 
@@ -125,6 +176,35 @@ Profile.
 .ipsAreaBackground_reset {
     background: #f8f1e0 !important;
 }
+#elProfileActivityOverview .ipsAreaBackground_reset[data-role="activityItem"] {
+    background: transparent !important;
+        border-radius: 3px  !important;
+}
+.ipsApp .ipsButton_overlaid:hover {
+    background: #654321 !important;
+}
+.ipsApp .ipsButton_overlaid {
+    background: #654321 !important;
+}
+
+
+/*
+Profile editing.
+*/
+.ipsDialog > div {
+    background: #fffaec !important;
+    box-shadow: 0px 5px 55px rgba(0,0,0,0.4) !important;
+}
+.ipsFieldRow_section {
+    background: #654321 !important;
+    color: #f8f1e0 !important;
+    border-radius: 3px !important;
+}
+.ipsApp select:not([multiple]){
+background-image: url( "https://www.redwall.ru/forum/uploads/set_resources_1/84c1e40ea0e759e3f1505eb1788ddf3c_select_dropdown.png" ), linear-gradient(to bottom, #e6d8b1 0%, #e6d8b1 100%) !important;
+    border-color: #65432140 !important;
+}
+
 
 
 /* 
@@ -132,7 +212,7 @@ Calendar.
 */
 .ipsWidget .ipsCalendarDate {
     background: transparent !important;
-        border: 0px solid rgba(0,0,0,0.2) !important;
+    border: 0px solid rgba(0,0,0,0.2) !important;
 }
 
 
@@ -160,6 +240,7 @@ Comment background.
     background: #e6d8b1 !important;
     border-top: 0px solid #a3a7a9 !important;
 }
+
 
 
 /*
@@ -221,6 +302,13 @@ Quotes & spoilers.
     color: #efe5ca !important;
 }
 
+/*
+Code. 
+*/
+.ipsCode {
+    background: #e6d8b1 !important;
+    border-left: 4px solid #654321 !important;
+}
 
 
 /*
@@ -280,7 +368,6 @@ html[dir="ltr"] .ipsStream.ipsStream_withTimeline {
 html[dir] .ipsStream_withTimeline .ipsStreamItem.ipsStreamItem_actionBlock::after {
     background: #654321 !important;
 }
-
 .ipsAreaBackground_reset[data-role="activityItem"] {
     background: #e6d8b1 !important;
         border-radius: 3px;
@@ -341,7 +428,7 @@ Event.
 Karma.
 */
 .ipsReact_types ul {
-    background: #e6d8b1
+    background: #e6d8b1 !important
 }
 
 
@@ -377,7 +464,7 @@ html[dir="ltr"] #elMobileBreadcrumb::before {
 }
 
 #elMobileNav {
-    background: #654321 !important; 
+    background: #553719 !important; 
 }
 .ipsDrawer_list [data-action="back"] a {
     background: #e6d8b1 !important;
@@ -394,7 +481,7 @@ html[dir="ltr"] #elMobileBreadcrumb::before {
     border-bottom: 1px solid #65432199 !important;
     border-top: 1px solid rgba(255,255,255,0.05) !important;
 }
-.cUserNav_icon a {
+#elUserNav_mobile .cUserNav_icon a {
     color: #654321 !important;
 }
 
@@ -405,7 +492,7 @@ Journals.
 */
 #elBlogHeaderStats {
     background: #654321 !important;
-        padding: 10px !important;
+    padding: 10px !important;
 }
 .cBlockView_stats .ipsType_minorHeading {
     color: #fff !important;
@@ -417,8 +504,8 @@ Follow button.
 */
 .ipsApp .ipsButton_link.ipsFollow, .ipsApp .ipsButton_link.ipsPromote {
     background: #e6d8b1 !important;
-        color: #654321dd !important;
-        border: 0px solid #000 !important;
+    color: #654321dd !important;
+    border: 0px solid #000 !important;
 }
 
 
@@ -437,6 +524,32 @@ Post editor.
         color: #654321dd !important;
         border: 0px solid #000 !important;
 }
+.cke_wysiwyg_frame, .cke_wysiwyg_div {
+    background-color: #f8f1e0 !important;
+}
+.ipsComposeArea_dummy {
+    background: #f8f1e0 !important;
+        color: #654321a0 !important;
+}
+.ipsApp .ipsButton_primary {
+    background: #654321 !important;
+    color: #efe5ca !important;
+}
+
+/*
+Post editor toolbar.
+*/
+.cke_top {
+    white-space: normal !important;
+    background: #e6d8b1 !important;
+}
+a.cke_button_on {
+    background: #f8f1e0 !important;
+}
+a.cke_button_off hover {
+    background: #f8f1e0 !important;
+}
+
 
 /*
 Switches.
@@ -610,4 +723,72 @@ Karma.
     background: #e6d8b1 !important;
     color: #654321 !important;
 }
+
+/*
+Topic creation.
+*/
+.ipsTabs_panel {
+    background: #f8f1e0 !important;
+}
+
+.ipsTabs {
+    background: #654321 !important;
+    border-radius: 3px 3px 0px 0px !important;
+}
+
+.ipsTabs_activeItem {
+    background: #f8f1e0 !important;
+    border-radius: 3px 3px 0px 0px !important;
+}
+.ipsTabs_item:not(.ipsTabs_activeItem){
+    background: #22222240 !important;
+    color: #e6d8b1 !important;
+    border-radius: 3px 3px 0px 0px !important;
+}
+
+.ipsTabs_item:not(.ipsTabs_activeItem):hover{
+    background: #22222260 !important;
+    color: #f8f1e0 !important;
+    border-radius: 3px 3px 0px 0px !important;
+}
+.ipsApp .ipsField_autocomplete, .ipsApp textarea, .ipsApp input[type="text"], .ipsApp input[type="password"], .ipsApp input[type="datetime"], .ipsApp input[type="datetime-local"], .ipsApp input[type="date"], .ipsApp input[type="month"], .ipsApp input[type="time"], .ipsApp input[type="week"], .ipsApp input[type="number"], .ipsApp input[type="email"], .ipsApp input[type="url"], .ipsApp input[type="search"], .ipsApp input[type="tel"], .ipsApp .ipsField_dummy {
+    background-color: #e6d8b1 !important;
+        border-color: #65432140 !important;
+}
+.CodeMirror {
+    background: #fffaecd0 !important;
+}
+
+
+/*
+Hovercard.
+*/
+.cUserHovercard {
+    background: #e6d8b1 !important;
+    border-width: 0px !important;
+    color: #654321 !important;
+}
+.ipsHovercard {
+    background: #e6d8b1 !important;
+    border: 1px solid #e6d8b1 !important;
+}
+.ipsHovercard_stemTop .ipsHovercard_stem, .ipsHovercard_stemTop .ipsHovercard_stem::before {
+    border-color: #e6d8b1 transparent transparent transparent !important;
+}
+.cUserHovercard_data .ipsDataItem {
+    border-color: #65432120 !important;
+}
+
+
+/*
+Alert.
+*/
+.ipsAlert {
+    background: #e6d8b1 !important;
+        color: #654321 !important;
+}
+.ipsApp .ipsButton {
+        border: 0px solid rgba(0,0,0,0.1) !important;
+}
+
 
