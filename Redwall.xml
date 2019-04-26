@@ -6027,6 +6027,9 @@ html[dir] .ipsStream.ipsStream_withTimeline .ipsStreamItem.ipsStreamItem_condens
 
 
 
+
+
+
 .ipsWidget_title .ipsType_light {
     color: #efe5ca !important;
 }
@@ -6046,6 +6049,9 @@ Forum list background.
     background-color: #f8f1e0 !important;
 }
 
+/*
+Header.
+*/
 #ipsLayout_header header {
     background-color: #654321f0 !important;
 }
@@ -6085,7 +6091,9 @@ Forum list background.
 .cUserNav_icon a {
     color: #e6d8b1 !important;
 }
-
+#elUserNav > li > a, #elFooterSocialLinks > li > a {
+    color: #e6d8b1;
+}
 
 
 
@@ -6660,7 +6668,6 @@ Notifications.
 
 #elFlashMessage a {
     color: #222 !important;
-    background: #654321 !important;
     border-bottom: 1px solid rgba(239,229,202,0.6) !important;
 }
 #elFlashMessage a[data-action="dismissFlashMessage"] {
@@ -6777,7 +6784,7 @@ Topic creation.
     color: #f8f1e0 !important;
     border-radius: 3px 3px 0px 0px !important;
 }
-.ipsApp .ipsField_autocomplete, .ipsApp textarea, .ipsApp input[type="text"], .ipsApp input[type="password"], .ipsApp input[type="datetime"], .ipsApp input[type="datetime-local"], .ipsApp input[type="date"], .ipsApp input[type="month"], .ipsApp input[type="time"], .ipsApp input[type="week"], .ipsApp input[type="number"], .ipsApp input[type="email"], .ipsApp input[type="url"], .ipsApp input[type="search"], .ipsApp input[type="tel"], .ipsApp .ipsField_dummy {
+.ipsApp .ipsField_autocomplete, .ipsApp textarea, .ipsApp input[type="text"], .ipsApp input[type="password"], .ipsApp input[type="datetime"], .ipsApp input[type="datetime-local"], .ipsApp input[type="date"], .ipsApp input[type="month"], .ipsApp input[type="time"], .ipsApp input[type="week"], .ipsApp input[type="number"], .ipsApp input[type="email"], .ipsApp input[type="url"], .ipsApp input[type="tel"], .ipsApp .ipsField_dummy {
     background-color: #e6d8b1 !important;
 		border-color: #65432140 !important;
 }
@@ -6816,6 +6823,8 @@ Alert.
 .ipsApp .ipsButton {
 		border: 0px solid rgba(0,0,0,0.1) !important;
 }
+
+
 
 
 
