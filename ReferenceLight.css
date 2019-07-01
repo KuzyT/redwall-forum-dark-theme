@@ -639,7 +639,6 @@ Notifications.
 
 #elFlashMessage a {
     color: #222 !important;
-    background: #654321 !important;
     border-bottom: 1px solid rgba(239,229,202,0.6) !important;
 }
 #elFlashMessage a[data-action="dismissFlashMessage"] {
