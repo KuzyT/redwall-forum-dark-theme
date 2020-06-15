@@ -1410,6 +1410,9 @@ Polls.
     color: #4C3719;
   	box-shadow: 0 5px 9px rgba(0,0,0,0.1);
 }
+.ipsType_sectionTitle .ipsContained .ipsType_light {
+	color: #f8f1e0;
+}
 
 
 /*

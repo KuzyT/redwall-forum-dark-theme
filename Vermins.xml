@@ -1819,6 +1819,14 @@ Journals border fix.
 .ipsImage_thumbnailed {
     border: none;
 }
+
+/*
+Embed border.
+*/
+iframe[data-embedContent].ipsEmbed_finishedLoading {
+	background-color: #302B25;
+	border: 1px solid #302B25;
+}
 ]]></css>
         <css css_location="front" css_attributes="" css_path="custom" css_name="gallery.css">/*
             Gallery.
